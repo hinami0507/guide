@@ -1,0 +1,148 @@
+body
+{
+	margin: 0;
+}
+.container
+{
+	width: 1170px;
+	margin: auto;
+}
+
+.hinami
+{
+	background-image:url('../img/bg.jpg');
+	background-size: 100%;
+	position: relative;
+	background-repeat:no-repeat;
+	min-height: 100%;
+	
+}
+/*设置一级导航栏样式*/
+.top-menu
+{
+	position:fixed;
+	top:10px;
+}
+
+.top-menu ul
+{
+	width: 80px;                
+	padding: 0;
+}
+
+.top-menu li
+{
+	float: left;
+	position: relative;
+	display: inline-block;
+	list-style-type: none;
+	padding-left: 150px;
+}
+
+
+.top-menu li a 
+{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+  padding: 0.5em 1em;
+  font-weight: 700;
+  margin: 0;
+  font-family:microsoft Yahei;
+  font-size: 20px;
+  -webkit-transition:all 0.5s;
+}
+/*鼠标经过时触发效果--改变背景色*/
+.top-menu li a:hover
+{
+	background-color:#33998B;
+}
+/*隐藏二级导航栏*/
+.top-menu li ul
+{
+	display: none;
+}
+
+
+/*鼠标经过一级导航栏的时候，触发二级导航栏显示*/
+.top-menu li:hover ul
+{
+	display: block;
+}
+
+/*设置二级导航栏样式*/
+.top-menu li ul li
+{
+	padding: 0;
+}
+
+
+.head-banner-info
+{
+	padding: 12em;
+	position: relative;
+}
+.head-banner-info img
+{
+	height: 100px;
+	width: 120px;
+}
+.text-center
+{
+	text-align: center;
+}
+
+
+h1
+{
+	font:80px Verdana, Arial, Helvetica, sans-serif;
+	color: white;
+}
+
+h2
+{
+	font:40px microsoft Yahei;
+	color: white;
+}
+h3
+{
+	font-size: 30px;
+	color: white;
+	font-family:microsoft Yahei;
+	font-weight: bold;
+}
+h4
+{
+	font-size:20px;
+	color:#F5F5F5;
+}
+.about-section
+{
+	font-family:microsoft Yahei;
+	background:#626262;
+	height: 700px;
+	background-size: 100%;
+	position: relative;
+	padding: 40px;
+}
+
+.foot
+{
+	height: 200px;
+	background-color: #626262;
+}
+
+#toTop {
+  display: none;
+  text-decoration: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  overflow: hidden;
+  width: 45px;
+  height: 40px;
+  border: none;
+  text-indent: 100%;
+  background: url("./img/head.png") no-repeat -349px -192px;
+  }
