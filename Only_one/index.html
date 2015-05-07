@@ -2,33 +2,33 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="./css/class.css">
-	<script type="text/javascript" src="./js/jquery-1.11.2.min.js"></script>
-	<script type="text/javascript" src="./js/jquery.scrollTo-min.js"></script>
+	<script type="text/javascript" src="http://libs.useso.com/js/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/jquery.scrollTo.js"></script>
 	<script type="text/javascript" src="./js/fun.js"></script>
 	<title>我只是个框架</title>
 </head>
 <body>
 
 <!-- 这里是head开头 -->
-	<div class="hinami">
+	<div class="hinami" id="top-head">
 		<div class="container">
 			<ul class="top-menu" style="z-index:2;" id="nav">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">work</a>
+				<li><a id="toHome">Home</a></li>
+				<li><a id="towork">work</a>
 					<ul>
 						<li><a href="#">computer</a></li>
 						<li><a href="#">designer</a></li>
 						<li><a href="#">flower</a></li>
 					</ul>
 				</li>
-				<li><a href="#">skill</a>
+				<li><a id="toskill">skill</a>
 					<ul>
 						<li><a href="#">computer</a></li>
 						<li><a href="#">designer</a></li>
 						<li><a href="#">flower</a></li>
 					</ul>
 				</li>
-				<li><a href="#">contact</a></li>
+				<li><a id="tocontact">contact</a></li>
 			</ul>
 
 			<div class="head-banner-info text-center">
@@ -42,7 +42,7 @@
 <br>
 <br>
 <!-- 这里是home -->
-	<div class="about-section" id="about">
+	<div class="about-section" id="Home">
 		<div class="container">
 			<div class="aboutSectionhead text-center">
 				<img src="./img/head.png">
@@ -55,7 +55,7 @@
 <br>
 <br>
 <!-- 这里是work -->
-	<div class="about-section" id="about">
+	<div class="about-section" id="work">
 		<div class="container">
 			<div class="aboutSectionhead text-center">
 				<img src="./img/head.png">
@@ -68,7 +68,7 @@
 <br>
 <br>
 <!-- 这里是skill -->
-	<div class="about-section" id="about">
+	<div class="about-section" id="skill">
 		<div class="container">
 			<div class="aboutSectionhead text-center">
 				<img src="./img/head.png">
@@ -81,7 +81,7 @@
 <br>
 <br>
 <!-- 这里是contact -->
-	<div class="about-section" id="about">
+	<div class="about-section" id="contact">
 		<div class="container">
 			<div class="aboutSectionhead text-center">
 				<img src="./img/head.png">
@@ -92,15 +92,21 @@
 	</div>
 <!-- 这里contact结束 -->
 
-
+<!--这里是 footer            -->
 <div class="foot" id="foot">
 	<div class="container text-center">
 		<h1 style="padding:80px">hello ! I am foot</h1>
 	</div>
 </div>
 
-
-	<!-- footer-section-ends -->
+<div class="rollbar">
+<ul>
+	<li>
+		<a href="#">AAA</a>
+	</li>
+</ul>
+</div>
+<!-- footer-section-ends -->
 
 </body>
 </html>
