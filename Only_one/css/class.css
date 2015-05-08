@@ -11,7 +11,6 @@ body
 .hinami
 {
 	background-image:url('../img/bg.jpg');
-	
 	position: relative;
 	background-repeat:no-repeat;
 	min-height: 100%;
@@ -22,6 +21,7 @@ body
 {
 	position:fixed;
 	top:10px;
+
 }
 
 .top-menu ul
@@ -129,8 +129,10 @@ h4
 
 .foot
 {
-	height: 200px;
-	background-color: #626262;
+            position: relative;
+	background-image: url("../img/video-bg.png");
+            height: 201px;
+
 }
 
 #toTop {
@@ -153,6 +155,7 @@ h4
   right: 20px;
   bottom: 20px;
   z-index: 999;
+  cursor: pointer;
 }
 
 .rollbar ul {
@@ -175,4 +178,92 @@ h4
   border-radius: 2px;
   background-color: #666;
   color: #fff;
+}
+
+
+.validate
+{
+    position: relative;
+    margin-right: 80px;
+    font-family: Yahei;
+    border-bottom: 2px solid #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    height: 3rem;
+    font-size: 1rem;
+    margin: 0 0 15px 0;
+    padding: 0;
+    box-shadow: none;
+    transition: all .3s;
+    outline:none;
+}
+.herw input
+{
+    margin: 20px;
+}
+.validate:focus
+{
+
+    border-bottom: 2px solid #26a69a;
+    box-shadow: 0px 1px 0px #26a69a;
+}
+
+.work
+{
+    background-image: url(../img/workbg.jpg);
+    font-family:microsoft Yahei;
+    height: 452px;
+    background-size: 100%;
+    position: relative;
+    padding: 40px;
+}
+.HomeStory
+{
+    width: 600px;
+    float: left;
+    font-size: 
+}
+.HomePic
+{
+    float: right;
+}
+.draw
+{
+    width: 600px;
+    float: right;
+}
+
+.drawPic
+{
+    float: left;
+}
+.Waist
+{
+    background-image: url(../img/clients-bg.jpg);
+    height: 501px;
+    background-repeat: no-repeat;
+}
+
+.Waist ul
+{
+    margin-top: 0px;
+}
+
+.Waist ul li
+{
+    position: relative;
+    top:160px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    float:left;
+    padding-left:200px;
+}
+
+.foot h1
+{
+    position: relative;
+    top: 50px;
 }
